@@ -3,8 +3,8 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
-
-body{
+/* index */
+.bodi{
   background-color: rgb(215, 247, 247);
   height: 1240px;
 }
@@ -33,7 +33,31 @@ body{
 width: 100px;
 height: 130px;
 }
- 
+/* index */
+
+/* pengumuman */
+.bodii{
+  /* padding-top: 3rem; */
+  /* padding-bottom: 3rem; */
+  background-color: white;
+}
+.fto{
+  max-width: 400px;
+  max-height: 40vh;
+}
+.biru{
+color: blue;
+}
+.hijau{
+color: green;
+}
+.merah{
+color: red;
+}
+.abu{
+color: rgb(87, 90, 89);
+}
+/* pengumuman */
 
 
 

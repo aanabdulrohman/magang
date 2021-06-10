@@ -8,87 +8,362 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/fea54b2e11.js" crossorigin="anonymous"></script>
+
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="stylee.css">
+
+<!-- icon  bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
     <title>Pengumuman</title>
   </head>
-  <body>
+  <body class="bodii">
  
     <!-- nav -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent mt-2">
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top">
         <div class="container">
-          <a class="navbar-brand fs-4 fw-bolder" href="#">Banjar Patroman</a>
+          <a class="navbar-brand fs-4 fw-bolder text-primary" href="#">Banjar Patroman</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+                <a class="nav-link fw-bolder" href="#">Covid</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link fw-bolder" href="#">Bajar Terkini</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bolder" href="#">Event</a>
               </li>
             </ul>
-            
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
           </div>
         </div>
       </nav>
+    </header>
     <!-- nav -->
 
-    <!-- colaps -->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <!-- header -->
+    <div class="container col-md-12 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6 fto">
+          <img src="aset/mask-man.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="aset/180142423_1209269872839549_373650016056259060_n.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Banjar Kota Idaman</h5>
-              <p>Somah Bagja dibuana</p>
-              <h1>AA</h1>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="aset/180142423_1209269872839549_373650016056259060_n.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="aset/180142423_1209269872839549_373650016056259060_n.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
+        <div class="col-lg-6">
+          <h1 class=" fw-bold lh-1 mb-4">"Somahna Bagja Di Buana, ngaranggo masker."</h1>
+          <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-    <!-- colaps -->
+    </div>
+    <!-- header -->
+
+   
+    <!-- info utama -->
+    <!-- covid -->
+    <section id="covid">
+      <div class="container">
+          <div class="row">
+              <h2 class="mt-5 mb-4 fs-2 fw-bolder text-center">Info Covid</h2>
+              <div class="col-lg-3 col-md-6 col-sm-12 justify-content-center">
+                  <div class=" card mb-3 shadow-sm crd">
+                      <div class="row g-0">
+                        <div class="col-md-4 mt-2 p-4">
+                          <i class="fas fa-syringe fa-3x biru"></i>   
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h3 class="card-title fs-6 fw-bolder">Divaksin</h3>
+                            <h4 class="card-text fs-6">540 Orang</h4>
+                            <p class="card-text"><small class="text-muted">Januari 2021</small></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div> 
+              </div>
+              
+              <div class="col-lg-3 col-md-6 col-sm-12 justify-content-center">
+                  <div class=" card mb-3 shadow-sm crd">
+                      <div class="row g-0">
+                        <div class="col-md-4 mt-2 p-4">
+                          <i class="fas fa-virus-slash fa-3x hijau"></i>   
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h3 class="card-title fs-6 fw-bolder">Sembuh</h3>
+                            <h4 class="card-text fs-6">2500 Orang</h4>
+                            <p class="card-text"><small class="text-muted">Januari 2021</small></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div> 
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12 justify-content-center">
+                  <div class=" card mb-3 shadow-sm crd">
+                      <div class="row g-0">
+                        <div class="col-md-4 mt-2 p-4">
+                          <i class="fas fa-clinic-medical fa-3x merah"></i>   
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h3 class="card-title fs-6 fw-bolder">Positive</h3>
+                            <h4 class="card-text fs-6 ">840 Orang</h4>
+                            <p class="card-text"><small class="text-muted">Januari 2021</small></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div> 
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12 justify-content-center">
+                  <div class=" card mb-3 shadow-sm crd">
+                      <div class="row g-0">
+                        <div class="col-md-4 mt-2 p-4">
+                          <i class="fas fa-heart-broken fa-3x abu"></i>   
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h3 class="card-title fw-bolder fs-6">Meninggal</h3>
+                            <h4 class="card-text fs-6">840 Orang .</h4>
+                            <p class="card-text"><small class="text-muted">Januari 2021</small></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div> 
+              </div>
+      
+              
+      
+              
+      
+      </section>
+      <!-- <hr class="mt-4 shadow-sm"> -->
+    <!-- covid -->
+    <div class="container mt-5">
+      <h2 class="text-center fw-bolder fs-2 mb-4">Banjar Terkini</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4 ">
+      <div class="col">
+        <div class="card mb-3 shadow-sm" style="max-width: 540px;">
+          <div class="row">
+            <div class="col-md-4">
+          <img src="Banjar/aset/wali2.jpg" class="img-fluid"  alt="...">
+        </div>
+          <div class="col-md-8">
+            <div class="card-body">
+            <h5 class="card-title fs-4 fw-bolder">Sosialisasi mudik</h5>
+            <p class="card-text fw-normal fs-6">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-3 shadow-sm" style="max-width: 540px;">
+          <div class="row">
+            <div class="col-md-4">
+          <img src="Banjar/aset/wali.jpg" class="img-fluid" alt="...">
+        </div>
+          <div class="col-md-8">
+            <div class="card-body">
+            <h5 class="card-title fw-bolder fs-4">Pantau arus mudik</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <!-- colaps -->
+      <p class="text-center mt-3">
+        <button class="btn btn-transp" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          <h3 class="fs-6 fw-bolder">Berita lainnya</h3>
+        </button>
+      </p>
+      <div class="collapse" id="collapseExample">
+      <!-- berita -->
+      <div class="row row-cols-1 row-cols-md-4 g-4 mt-2">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="Banjar/aset/wali3.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bolder ">Ulang tahun wakil walikota</h5>
+              <p class="card-text fs-6">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="Banjar/aset/wali4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bolder">Rapat sosialisasi covid</h5>
+              <p class="card-text fs-6">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="Banjar/aset/wali.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bolder">Pantau arus mudik</h5>
+              <p class="card-text fs-6">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="Banjar/aset/wali2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bolder">Sosialisasi arus mudik</h5>
+              <p class="card-text fs-6">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="Banjar/aset/wali2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bolder">Sosialisasi arus mudik</h5>
+              <p class="card-text fs-6">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="Banjar/aset/wali2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bolder">Sosialisasi arus mudik</h5>
+              <p class="card-text fs-6">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="Banjar/aset/wali2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bolder">Sosialisasi arus mudik</h5>
+              <p class="card-text fs-6">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="Banjar/aset/wali3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fs-4 fw-bolder">Ultah wakwalkot</h5>
+              <p class="card-text fs-6">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        </div></div>
+      </div>
+      </div>
+<!-- berita -->
+    <!-- info utama -->
+
+    <!-- event -->
+    <div class="container mt-5">
+      <h2 class="fw-bolder fs-2 text-center">Event</h2>
+    </div>
+    <!-- event -->
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 g-4 ">
+        <div class="col">
+          <div class="card mb-3 shadow-sm" style="max-width: 540px;">
+            <div class="row">
+              <div class="col-md-4">
+                <h1 class="fs-1 fw-bolder text-center mt-5">10</h1>
+                <h1 class="fs-6 fw-bolder text-center mb-5">Juli 2021</h1>
+            <!-- <img src="Banjar/aset/wali2.jpg" class="img-fluid"  alt="..."> -->
+          </div>
+            <div class="col-md-8">
+              <div class="card-body">
+              <h5 class="card-title fs-4 fw-bolder">Sosialisasi mudik</h5>
+              <p class="card-text fw-normal fs-6">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-3 shadow-sm" style="max-width: 540px;">
+            <div class="row">
+              <div class="col-md-4">
+                <h1 class="fs-1 fw-bolder text-center mt-5">10</h1>
+                <h1 class="fs-6 fw-bolder text-center mb-5">Juli 2021</h1>
+            <!-- <img src="Banjar/aset/wali2.jpg" class="img-fluid"  alt="..."> -->
+          </div>
+            <div class="col-md-8">
+              <div class="card-body">
+              <h5 class="card-title fs-4 fw-bolder">Sosialisasi mudik</h5>
+              <p class="card-text fw-normal fs-6">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container">
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img class="mb-2" src="aset/LOGO KOTA BANJAR.png" alt="" width="40" height="40">
+          <small class="d-block mb-3 text-muted">&copy; 2017–2021</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+            <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+    <!-- footer -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
