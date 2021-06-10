@@ -5,13 +5,14 @@
 }
 /* index */
 .bodi{
-  background-color: rgb(215, 247, 247);
-  /* height: 1240px; */
+  /* background-color: rgb(231, 240, 240); */
+  height: 1240px;
 }
 
 *{
     font-family: 'Poppins', sans-serif;
 }
+
 
 .txt{
   color: rgb(66, 61, 61);
@@ -57,10 +58,7 @@ color: red;
 .abu{
 color: rgb(87, 90, 89);
 }
-.evn{
 
-  height: ;
-}
 /* .footer{
   background-color: rgb(227, 236, 245);
 } */
